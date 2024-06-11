@@ -4,8 +4,8 @@ const navItems = {
   "/": {
     name: "Home",
   },
-  "/blog": {
-    name: "Blog",
+  "/founder": {
+    name: "About Us",
   },
   "https://lu.ma/m8uh1gay": {
     name: "Conference",

@@ -36,6 +36,13 @@ export default function Page() {
         ecosystem where research, collaboration, and professional growth thrive.
       </p>
 
+      <h2 className="-mb-4 mt-4 text-xl font-semibold tracking-tighter">
+        Our Founders:
+      </h2>
+      <div className="my-8">
+        <BlogPosts />
+      </div>
+
       <h2 className="mb-2 mt-4 text-xl font-semibold tracking-tighter">
         Join Our Movement:
       </h2>
@@ -45,10 +52,6 @@ export default function Page() {
         part of our mission as we champion women's health and open doors to
         exciting professional opportunities.
       </p>
-
-      <div className="my-8">
-        <BlogPosts />
-      </div>
     </section>
   );
 }
